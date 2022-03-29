@@ -49,13 +49,24 @@ class Main extends Component {
                             </div>
                         </div>
                         <div className="process-price-info">
-                                <h2>At instructorsyte, we offer great prices on our services and we know it's a huge factor when thinking about building a website. Please don't hesitate to check out our plans.</h2>
+                                <h2>At <font style={{fontWeight: 'bold'}}>instructorsyte</font>, we offer great prices on our services and we know it's a huge factor when thinking about building a website. Please don't hesitate to check out our plans.</h2>
                                 <button className="button-cta">Pricing</button>
                         </div>
                     </div>
                 </section>
-                <section style={{backgroundColor : 'var(--caribbean-green)'}}>
-                    
+                <section className="about-section" >
+                    <div className="about-section-outer-ctr">
+                        <div className="about-section-inner-ctr">
+                            <div className="main-img">
+                                <img src="/assets/images/selfie.png" alt="" />
+                            </div>
+                            <div className="about-section-info">
+                                <h1>About us</h1>
+                                <h2>Based in Crewe, Cheshire and founded by student Callum Fortune, instructorsyte is designed to help driving instructors increase their web presence, without paying extreme prices or needing extensive internet knowhow.</h2>
+                                <button className="button-cta">Read more</button>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <Footer />
             </div>
