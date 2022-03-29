@@ -54,6 +54,9 @@ class Main extends Component {
                         </div>
                     </div>
                 </section>
+                <section style={{backgroundColor : 'var(--caribbean-green)'}}>
+                    
+                </section>
                 <Footer />
             </div>
         )

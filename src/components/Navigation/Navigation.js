@@ -21,17 +21,17 @@ class Navigation extends Component {
                 <h1>instructorsyte<font style={{fontSize: "0.7em"}}>.co.uk</font></h1>
                 <button className="toggle-nav" onClick={this.toggleNav}>{this.state.toggleOpen ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}</button>
                     <ul className={`${this.state.toggleOpen ? 'nav-mobile-open' : ''}`}>
-                        <Link className="react-link" to="home">
+                        <Link className="react-link" to="/">
                             <li><span>Home</span></li>
                         </Link>
-                        <Link className="react-link" to="about">
+                        <Link className="react-link" to="/about">
                             <li><span>About</span></li>
                         </Link>
-                        <Link className="react-link" to="pricing">
+                        <Link className="react-link" to="/pricing">
                             <li><span>Pricing</span></li>
                         </Link>
-                        <Link className="react-link" to="contact">
-                            <li><span>Contact</span></li>
+                        <Link className="react-link" to="/contact">
+                            <li><button className="button-cta"><span>Contact</span></button></li>
                         </Link>
                     </ul>
                 </div>

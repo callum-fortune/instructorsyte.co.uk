@@ -12,6 +12,20 @@ section {
     background-size: cover;
     background-position: center;
     color: white;
+    position: relative;
+}
+
+.landing-section::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(135deg);
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    z-index:0;
 }
 
 .landing-section-inner-ctr, .landing-section-inner-ctr {

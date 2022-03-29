@@ -25,6 +25,7 @@ button.toggle-nav>i {
     position:fixed;
     top: 0;
     left: 0;
+    z-index:10
 }
 
 .nav-scrolled {
@@ -80,6 +81,18 @@ button.toggle-nav>i {
     height: 100%;
     vertical-align: middle;
     font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-outer-ctr>.nav-inner-ctr>ul>.react-link>li>span:hover {
+    background-color: #363636;
+    transition: 0.3s ease;
+}
+
+.nav-outer-ctr>.nav-inner-ctr>ul>.react-link>li>button.button-cta {
+    border-color: var(--caribbean-green);
+    color: var(--caribbean-green);
 }
 
 @media screen and (max-width: 700px) {
